@@ -1,4 +1,4 @@
-FROM pytorch/pytorch:1.8.0-cuda11.1-cudnn8-devel
+FROM pytorch/pytorch:1.7.1-cuda11.0-cudnn8-devel
 LABEL maintainer="tqzhang"
 
 ARG cuda_version=cu110
