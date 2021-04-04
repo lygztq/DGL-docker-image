@@ -3,3 +3,4 @@ LABEL maintainer="tqzhang"
 
 ARG cuda_version=cu110
 RUN pip install dgl-${cuda_version}
+RUN pip install ogb
